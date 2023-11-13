@@ -1,0 +1,36 @@
+.secondary-navbar{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    gap: 700px;
+    height: 10vh;
+
+    background-color: #F1F3FF;
+    border: none;
+    overflow: hidden;
+}
+
+.top-navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: right;
+
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.top-logo{
+    display: flex;
+    background-color: #0D28A6;
+    width: 100px;
+    height: 34px;
+}
+
+.top-logo:hover{
+    opacity: 0.8;
+}
+
+.top-logo:active{
+    opacity: 0.5;
+}
